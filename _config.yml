@@ -1,0 +1,32 @@
+# Site settings
+title: Sheffield Uncertainty quantification
+motto: motto
+email: SheffUQ@gmail.com
+description: Uncertainty quantification research group at the University of Sheffield
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://sheffieldUQ.github.io" # the base hostname & protocol for your site
+twitter_username: SheffieldUQ
+github_username: SheffieldUQ
+gems: ['jekyll/scholar']
+# Build settings
+markdown: kramdown
+
+scholar:
+  style: apa
+  locale: en
+
+  sort_by: none
+  order: ascending
+
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: "{{reference}}"
+
+  replace_strings: true
+  join_strings:    true
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
