@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "This is a test"
+date:   2015-10-09
+categories: jekyll update
+---
+
+Words stuff etc.

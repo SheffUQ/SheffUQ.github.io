@@ -1,14 +1,38 @@
-# Jekyll-Pithy
+# Editing SheffieldUQ pages
 
-Jekyll-Pithy is a theme for Jekyll. Here is [my blog](http://wenva.github.io) which use this theme.
+These are the webpages for the SheffieldUQ group.
 
-![image](https://raw.githubusercontent.com/smallmuou/Jekyll-Pithy/master/images/Jekyll-Pithy.png)
+### Getting started
 
-### Usage
-* Clone it.
-* cd Jekyll-Pithy, and Run "jekyll serve"(You must install [jekyll](http://jekyllrb.com/) first)
-* Open web browser and enter "http://127.0.0.1:4000/", you can see the web page like snapshot above.
-* If you want to host you blog on Github Page, you can follow the steps provide by Github.
+* Tell me your github name so that I can add you to the SheffUQ group.
+* Clone the page
+```
+git clone https://github.com/SheffUQ/SheffUQ.github.io.git
+cd SheffUQ.github.io
+```
+* Make changes etc.
+* Run `jekyll serve` (You must install [jekyll](http://jekyllrb.com/) first).
+* Open web browser and enter "http://127.0.0.1:4000/" to see the website.
 
-### License
-The code follows MIT License.
+
+### Blog entries
+* `cd _posts/`
+* Create a new file that obeys the naming convention YEAR-MONTH-DATE-NAME.markdown
+* ```bash
+cd ../
+jekyll serve
+```
+
+
+### Updating github
+
+Because we are using [Jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) for the references, updating the pages is slightly convoluted.
+
+There are two branches to the repo - master and source. All the source code lives in the source branch, and the html from the `_site/` directory needs to go into the `master` branch.
+
+
+
+
+
+### Source
+The website uses the [Jekyll-Pithy](https://github.com/smallmuou/Jekyll-Pithy) theme.
