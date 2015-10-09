@@ -31,7 +31,9 @@ git checkout -b source
 
 Because we are using [Jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) for the references, updating the pages is slightly convoluted.
 
-There are two branches to the repo - master and source. All the source code lives in the source branch, and the html from the `_site/` directory needs to go into the `master` branch. Once you have built and tested the site locally, [do the following](https://github.com/randymorris/randymorris.github.com/blob/source/README.md) to update the github repo.,
+There are two branches to the repo - master and source. All the source code lives in the source branch, and the html from the `_site/` directory needs to go into the `master` branch. Once you have built and tested the site locally, 
+commit the changes to source branch. Then
+[do the following](https://github.com/randymorris/randymorris.github.com/blob/source/README.md) to update the github repo.,
 
 ```
 git branch -D master
